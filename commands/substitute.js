@@ -1,1 +1,0 @@
-﻿var Substitute={execute:function(c){var r=ExRange.resolve(c.range);if(r.all)SakuraContext.replaceFile(c.pattern,c.replacement,c.flags);else SakuraContext.replaceRange(r.start,r.end,c.pattern,c.replacement,c.flags);}};ExDispatcher.register(["substitute"],Substitute);

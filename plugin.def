@@ -2,14 +2,14 @@
 Id=net.customtea.sakurapalette
 Name=Vim Ex Command Palette
 Type=wsh
-Version=0.2.0
-Description=Vim/Ex風の:コマンドを入力してサクラエディタを操作するコマンドパレット
+Version=0.3.0
+Description=Vim/Ex風の:コマンドパレット
 Author=customtea
 URL=https://github.com/customtea/cherim
 
-[Wsh]
-UseCache=1
-
 [Command]
-C[1]=command-palette.js
+C[1]=command_palette.py
 C[1].Label=Vim Ex Command Palette(&:)
+
+[Startup]
+C[1]=startup.py
